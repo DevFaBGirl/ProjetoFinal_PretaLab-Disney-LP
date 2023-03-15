@@ -18,9 +18,9 @@
 */
 function calcularMedia() {
   const nota1 = parseFloat(document.getElementById("nota1").value);
-  const note2 = parseFloat(document.getElementById("nota2").value);
-  const note3 = parseFloat(document.getElementById("nota3").value);
-  const note4 = parseFloat(document.getElementById("nota4").value);
+  const nota2 = parseFloat(document.getElementById("nota2").value);
+  const nota3 = parseFloat(document.getElementById("nota3").value);
+  const nota4 = parseFloat(document.getElementById("nota4").value); 
 
   let mensagem = "";
   // evite mexer no código acima!git 
@@ -29,7 +29,7 @@ function calcularMedia() {
   const media = (nota1 + nota2 + nota3 + nota4) / 4;
     
   if (media === 0) {
-    mensagem = `Infelizmente você zerou a prova :(`;
+    mensagem = `Infelizmente você zerou a prova`;
   } else if (media >= 0.1 && media <= 3) {
     mensagem = `Caramba, deu ruim, você obteve média ${media} ! Estude mais e tente novamente!`;
   } else if (media >= 3.1 &&  media <= 5.9) {
