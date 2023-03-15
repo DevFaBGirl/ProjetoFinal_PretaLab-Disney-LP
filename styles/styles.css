@@ -1,6 +1,6 @@
 body {
-  background-color: #F5F5F5;
-  color: #555;
+  background-color: #161616;
+  color: #F5F5F5;
   font-size: 1.1em;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   width: 100%;
@@ -11,6 +11,7 @@ body {
 
 h1 {
   text-align: center;
+  color: rgb(72, 255, 0);
 }
 
 h2 {
@@ -27,14 +28,16 @@ p {
 }
 
 section {
-  border: thick double #32a1ce;;
+  border: thick double rgb(72, 255, 0);
   margin-bottom: 30px;
+  border-radius: 15px;
   width: 50%;
 }
 
 button {
   height: 36px;
-
+  border-radius: 5px;
+ 
 }
 
 #projeto1, #projeto2 {
@@ -52,10 +55,12 @@ button {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  
 }
 
 #btnSituacao{
   width: 300px;
+  background-color: rgb(72, 255, 0);
 }
 
 #content {
@@ -79,17 +84,24 @@ button {
 .inputCalc {
   width: 110px;
   height: 30px;
-}
+  border-radius: 5px;
+  }
 
 .buttonCalc {
   width: 110px;
+  background-color: rgb(72, 255, 0);
 }
+
 
 .resultado {
   margin-top: 0;
+  color: rgb(72, 255, 0)
+  
 }
 
 .inputNota{
   width: 80px;
   height: 36px;
-}
+  border-radius: 5px;
+  
+  }
